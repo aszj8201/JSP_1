@@ -1,0 +1,40 @@
+@charset "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+header{
+	background: green;
+	text-align: center;
+	line-height: 100px;
+}
+nav{
+	height: 50px;
+	background: lightgray;
+	display: flex;
+	line-height: 50px;
+}
+nav > a {
+	margin: 0 0 0 50px;
+}
+section {
+	height: 500px;
+	background: #80ffff;
+}
+section > h3 {
+	text-align: center;
+	line-height: 50px;
+	font-size:30px;
+}
+section > p {
+display: flex;
+}
+footer {
+	height: 50px;
+	background: grey;
+	text-align: center;
+	line-height: 50px;
+}
+	

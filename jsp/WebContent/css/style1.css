@@ -1,0 +1,56 @@
+@charset "UTF-8";
+*{
+	list-style:none;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+}
+header{
+	background: green;
+	text-align: center;
+	padding: 30px 0px 0px 0px;
+}
+nav{
+	height: 50px;
+	background: lightgray;
+	display: flex;
+	line-height: 50px;
+}
+nav > a {
+	margin: 0 0 0 50px;
+}
+section {
+	height: 500px;
+    background: #80ffff;
+}
+section > h3 {
+	text-align: center;
+	line-height: 50px;
+}
+section > p {
+	margin: 50px 0 0 2000px;
+}
+td{
+	height: 20px
+}
+th{
+	height: 25px
+}
+.ininin{
+	width: 90px;
+	height: 24px;
+	background: background: rgb(248,0,0);
+}
+
+table {
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+footer {
+	height: 50px;
+	background: grey;
+	text-align: center;
+	line-height: 50px;
+}
